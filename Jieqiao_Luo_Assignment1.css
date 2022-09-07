@@ -1,0 +1,40 @@
+body {
+  text-align:center;
+}
+  table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: center;
+          padding: 8px;
+        }
+
+        input[type="text"]::placeholder { 
+            
+            /* Firefox, Chrome, Opera */
+            text-align: center;
+        }
+        input[type="text"]:-ms-input-placeholder {
+            
+            /* Internet Explorer 10-11 */
+            text-align: center;
+        }
+        #fname{ margin-top: 20px;
+          margin-bottom: 20px;
+          border-radius: 1em;
+          text-align:center;
+        }
+
+        ol,ul{
+            display: table;
+            margin: 0 auto;
+            margin-top: 1em;
+            margin-bottom: 1em;
+          }
+
+
+  
