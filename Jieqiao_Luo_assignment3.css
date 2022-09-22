@@ -1,0 +1,31 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #d6d7da;
+  text-align: center;
+  padding: 8px;
+}
+
+tr {
+  background-color: #b7b8b9;
+}
+
+input[type='text']::placeholder {
+  text-align: left;
+}
+
+body {
+  text-align: center;
+}
+ol,
+ul {
+  display: table;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
